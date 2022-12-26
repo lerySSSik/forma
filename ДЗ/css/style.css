@@ -1,0 +1,122 @@
+html {
+    box-sizing:border-box;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    height: 45px;
+    width: 400px;
+    color: #30507D;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #E9F2FF;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+main{
+    background: #F1F5FE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .circle {
+    position: absolute;
+    z-index: 1;
+    width: 534px;
+    height: 534px;
+    border-radius: 50%;
+    left: 453px;
+    top: 245px;
+    background: #F7FAFF;
+    box-shadow: 0px 4px 70px 6px rgb(217, 229, 255)
+} */
+.register-form-container {
+    position: relative;
+    z-index: 2;
+    max-width: 415px;
+    width: 100%;
+    background: whitesmoke;
+    box-shadow: 0px 6px 50px rgb(217, 229, 255);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 38px;
+    padding-top: 38px;
+}
+.h3 {
+    font-size: 20px;
+    color:#30507D;
+    text-align: center;
+}
+
+.form-title {
+    color: #30507D;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 38px;
+    display: flex;
+    justify-content: center
+}
+
+.form-field {
+    margin-bottom: 13px;
+}
+.button {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    height: 45px;
+    background: #247FFF;
+    border-radius: 5px;
+    color: aliceblue;
+    text-transform:uppercase;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    width: 430px;
+}
+.button:hover {
+    background-color: #247FFF;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.button.google {
+    color:#E9F2FF;
+    background: #E9F2FF;
+}
+.button.google:hover {
+    background: white;
+    color: aquamarine;
+}
+
+.divider {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #30507D;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.hhh {
+    margin: 10px 10px 10px 60px;
+    font-size: 16px;
+    color: white;
+    height: 20px;
+    width: 20px;
+    ;
+}
